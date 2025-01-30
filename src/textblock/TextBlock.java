@@ -15,8 +15,27 @@ public class TextBlock {
                         yabadabadoo
                 """;
 
+        String dick = """
+                
+                                        papa shango
+                                                   hello
+                
+                                        """;
+
+        String k = """
+                doe \
+                deer
+                """;
+
+        k = """
+                doe \n
+                deer
+                """;
+
         System.out.print(x);
         System.out.println(x1);
         System.out.println(mok);
+        System.out.println(dick);
+        System.out.println(k);
     }
 }
