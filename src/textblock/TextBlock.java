@@ -10,7 +10,13 @@ public class TextBlock {
         String x1 = "sss" +
                 "vheem";
 
+        String mok = """
+                "jeanne kwoski"
+                        yabadabadoo
+                """;
+
         System.out.print(x);
         System.out.println(x1);
+        System.out.println(mok);
     }
 }
