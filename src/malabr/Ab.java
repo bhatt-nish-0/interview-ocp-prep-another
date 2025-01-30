@@ -41,8 +41,13 @@ public class Ab {
 
         System.out.println(t.getClass());
 
-
+        var d1 = new Orp();
+        //d1 = 5;
 
 
     }
+}
+
+class Orp {
+
 }
