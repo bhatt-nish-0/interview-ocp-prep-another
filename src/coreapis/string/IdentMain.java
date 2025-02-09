@@ -35,5 +35,14 @@ public class IdentMain {
             System.out.println("test");
         }
         System.out.println(q);
+
+        var pi = 3.14159265359;
+
+        System.out.format("[%f]",pi);
+        System.out.println();
+        System.out.format("[%.3f]",pi);
+        System.out.println();
+        System.out.format("[%.4f]",pi);
+
     }
 }
