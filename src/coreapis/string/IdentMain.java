@@ -1,5 +1,7 @@
 package coreapis.string;
 
+import java.util.IllegalFormatConversionException;
+
 public class IdentMain {
     public static void main(String[] args) {
         String x = """
@@ -25,6 +27,13 @@ public class IdentMain {
         System.out.println(q);
 
         q = "hi %d %d %d".formatted(2,9,7);
+        System.out.println(q);
+
+        try {
+            q = "%d hello".formatted("test");
+        } catch (IllegalFormatConversionException e) {
+            System.out.println("test");
+        }
         System.out.println(q);
     }
 }
