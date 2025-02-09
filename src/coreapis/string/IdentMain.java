@@ -44,5 +44,8 @@ public class IdentMain {
         System.out.println();
         System.out.format("[%.4f]",pi);
 
+        String newString = "abc    ".trim().toUpperCase().replace('A','F');
+
+        System.out.println(newString);
     }
 }
